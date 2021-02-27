@@ -21,7 +21,7 @@ void clear_console()
 int main()
 {
     int tick_rate = 1;
-    double pos_array[15];
+    int pos_array[15] = {0};
     double result;
 
     clear_console();
